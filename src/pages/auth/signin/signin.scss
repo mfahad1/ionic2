@@ -1,0 +1,45 @@
+
+.signin > *{
+  display: flex!important;
+  align-content: center!important;
+  align-items: center!important;
+  background-color:#2d3f57 !important;
+  color: white !important;
+
+
+
+  .grid-padding{
+    padding: 60px;
+
+    .logoAvatar{
+      margin-left: 25%;
+      margin-bottom: 15%;
+      img{
+        height: 80px;
+      }
+    }
+
+    ion-item{
+      background-color: #2d3f57;
+      .text-input-md{
+        color:white;
+      }
+      .text-input-ios{
+        color:white;
+      }
+      .label{
+        color:#b1b9c4;
+      }
+    }
+
+    .btn-custom{
+      margin-top: 20%;
+      :nth-child(2){
+        margin-top: 5%;
+      }
+    }
+  }
+
+
+
+}

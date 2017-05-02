@@ -1,0 +1,13 @@
+<div class="scrolldates">
+    <div *ngFor="let dayDate of dayDates;let i=index"
+         (click)="selectedData(i)"
+         [ngClass]="[selectedDateIndex === i ?'selectedDate' : '']"
+    >
+        <ion-row  class="day">
+            {{dayDate.day}}
+        </ion-row>
+        <ion-row style="text-align: center" class="d">
+            {{dayDate.date}}
+        </ion-row>
+    </div>
+</div>

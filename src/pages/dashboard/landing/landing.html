@@ -1,0 +1,25 @@
+<ion-header class="landing-header">
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <ion-row >
+        <ion-col>
+          <ion-datetime displayFormat="MMM-YYYY" [(ngModel)]="dateSelected">
+          </ion-datetime>
+        </ion-col>
+        <ion-col>
+          <ion-icon ios="ios-arrow-dropdown" md="md-arrow-dropdown"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="landing-content">
+  <scrolling-dates [(dateinput)]="dateSelected"> </scrolling-dates>
+
+
+</ion-content>

@@ -1,0 +1,30 @@
+.scrolldates{
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  div {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    height: 70px;
+    width: 15%;
+
+    .day{
+      font-weight: 600;
+    }
+    .d{
+      font-size: 25px;
+      font-weight: 100;
+
+    }
+
+  }
+
+}
+
+.selectedDate {
+  background-color: #87e71a;
+  color:white !important;
+}
